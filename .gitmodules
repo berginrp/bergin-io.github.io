@@ -1,3 +1,7 @@
 [submodule "themes/northendlab-hugo"]
 	path = themes/northendlab-hugo
 	url = https://github.com/themefisher/northendlab-hugo
+[submodule "public"]
+	path = public
+	url = https://github.com/bergin-io/bergin-io.github.io.git
+	branch = master
