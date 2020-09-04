@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Using Auth.AuthToken for API integrations</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="This is meta description">
+  
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://bergin-io.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://bergin-io.github.io/plugins/themify-icons/themify-icons.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://bergin-io.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://bergin-io.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://bergin-io.github.io/images/favicon.png " type="image/x-icon">
+
+  
+  
+  
+
+</head><body>
+    
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="fixed-top navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <a class="navbar-brand"href="https://bergin-io.github.io/"><img class="img-fluid" src="/images/berginio_default_logo.png" alt="bergin.io"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://bergin-io.github.io/"> Home </a>
+          </li>
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://bergin-io.github.io/author/bergin-panimayam">About</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://bergin-io.github.io/contact">Contact</a>
+            </li>
+            
+          
+        </ul>
+        
+        <!-- search -->
+        <div class="search">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://bergin-io.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation --> <div class="py-5 d-none d-lg-block"></div> 
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto block shadow mb-5">
+        <h2>Using Auth.AuthToken for API integrations</h2>
+        <div class="mb-3 post-meta">
+          <a href="/author/bergin-panimayam">Bergin Panimayam</a>,
+          Aug 14, 2020, 
+          <a href="/categories/api">API</a>
+          
+        </div>
+        
+        <img src="/images/post/pexels-pixabay-60504-1-825x510.jpg" class="img-fluid w-100 mb-4" alt="Using Auth.AuthToken for API integrations">
+        
+        <div class="content mb-5">
+          <p>When it comes to API integration with systems that have sensitive data, security is something you could never compromise. Yet, you need to find a balance on how you design a solution that is secure and optimal as it should be, so it doesn’t choke on scaling.</p>
+<h3 class="has-medium-font-size" id="requirement"><strong>Requirement</strong></h3>
+<p>You have a Single Sign-on AuthProvider setup using OpenID Connect for the users to log in to Salesforce. You need to pass the user’s access token in the API call, so the service can authenticate the user before executing the API request. Also, the access token provided by the AuthProvider is valid only for 15 minutes for security reasons and the refresh token is valid for 12 hours.</p>
+<h3 class="has-medium-font-size" id="using-accesstoken-to-validate-user"><strong>Using AccessToken to validate user</strong></h3>
+<p>In a typical solution, you might get the access token and add it to your HttpRequest and make the API call. The server might check the validity of the token to make sure the user is in session and an authorized user.</p>
+<p>However, since the access token is valid for only 15 minutes, you need to make sure the token you add to your HttpRequest is valid and avoid a 401 unauthorized response. Let’s see how you can handle this.</p>
+<h3 class="has-medium-font-size" id="authauthtoken-class"><strong>Auth.AuthToken class</strong></h3>
+<p>Salesforce provides the <a href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_class_Auth_AuthToken.htm#apex_class_Auth_AuthToken">Auth.AuthToken class</a> to retrieve and revoke the access token. Let&rsquo;s focus on using two methods that can be used in this use case.</p>
+<pre><code class="language-apex" data-lang="apex">getAccessToken(authProviderId, providerName)
+refreshAccessToken(authProviderId, providerName, oldAccessToken)
+</code></pre><p>When you call the getAccessToken() method, for the first time, Salesforce makes a call to your AuthProvider to get the access token and holds in the cache — meaning Salesforce doesn’t go to the AuthProvider each time for getAccessToken() call, you get the same token until it’s refreshed.</p>
+<p>So, how to make sure you pass a valid token in the API request every time, without making a call to the AuthProvider to introspect if the token is valid or not? The easiest way is to make a refreshAccessToken() call to get a “refreshed” accessToken and use it to make the API request. But it might be expensive too, to make a refreshAccessToken() call every time you need to make an API call — this would be an issue if the number of calls you make in a given time is too high. Another option is to handle 401 unauthorized error and retry the API call with a refreshed access token – which could be tedious and result in unnecessary calls that could count towards your API limit.</p>
+<h3 class="has-medium-font-size" id="solution-8212-validating-the-access-token-locally"><strong>Solution — Validating the access token locally</strong></h3>
+<!-- raw HTML omitted -->
+<pre><code>{ 
+  ... 
+  &quot;iat&quot;: 1597374960, 
+  &quot;exp&quot;: 1597378240, 
+  ... 
+}
+</code></pre><p>Check the exp against the current time, if the token is expired, make a refreshAccessToken() call to get a new access token. To be on the safer side, I’d add a buffer to the current time — say 60 seconds — and compare against the exp time, if it’s still within the current time ( minus 1 minute), then use the same token, else, get a new refreshed token.</p>
+<p>This way you can avoid,</p>
+<ul>
+<li>Making unnecessary calls to refreshAccessToken()</li>
+<li>401 unauthorized errors from the service provider for an invalid token and retry API calls with a valid tokens</li>
+<li>Introspection calls to the auth provider to validate the access token’s validity.</li>
+</ul>
+<p>This helps in reducing the number of unnecessary API calls you make to the service provider and the AuthProvider and avoid API limit issues while making secure API calls.</p>
+<p><a href="https://medium.com/bergin-io/using-auth-authtoken-for-api-integrations-a9963982e34e">Click here to read this article on Medium.</a></p>
+
+        </div>
+        <div class="mb-3 post-meta">
+           <a href="/tags/access-token">#Access Token</a>,   <a href="/tags/api">#API</a>,   <a href="/tags/integration">#Integration</a>,   <a href="/tags/oauth2">#OAuth2</a>,   <a href="/tags/refresh-token">#Refresh Token</a>,   <a href="/tags/salesforce">#Salesforce</a>,   <a href="/tags/token">#Token</a>,  
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<footer class="py-4 bg-light border-top">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
+        <a href="https://bergin-io.github.io/" class="d-block pb-3"><img src="/images/berginio_default_logo.png" class="img-fluid" alt="bergin.io"></a>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <ul class="list-inline mb-0">
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="https://bergin-io.github.io/contact">Contact</a></li>
+          
+          <li class="list-inline-item"><a class="text-dark d-block p-2" href="https://bergin-io.github.io/author/bergin-panimayam">About</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-4 text-lg-right text-center mb-4 mb-lg-0">
+        <ul class="list-inline social-icon mb-0">
+          
+          <li class="list-inline-item"><a href="https://twitter.com/bergin__sf"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/berginpanimayam/"><i class="ti-linkedin"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://github.com/bergin-io"><i class="ti-github"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <span>© 2020 <a href="https://bergin.io">bergin.io</a> All Rights Reserved</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script>
+  var indexURL = "https://bergin-io.github.io/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://bergin-io.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://bergin-io.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://bergin-io.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://bergin-io.github.io/plugins/search/mark.js"></script>
+
+<script src="https://bergin-io.github.io/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://bergin-io.github.io/js/script.min.js"></script>
+
+<!-- google analitycs -->
+</body>
+
+</html>

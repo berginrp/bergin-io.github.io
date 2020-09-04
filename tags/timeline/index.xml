@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>timeline on bergin.io</title>
+    <link>https://bergin-io.github.io/tags/timeline/</link>
+    <description>Recent content in timeline on bergin.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jan 2018 14:14:45 -0500</lastBuildDate>
+    
+	<atom:link href="https://bergin-io.github.io/tags/timeline/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Force.com Developer Certification Expiration Timeline</title>
+      <link>https://bergin-io.github.io/2018/01/29/force.com-developer-certification-expiration-timeline/</link>
+      <pubDate>Mon, 29 Jan 2018 14:14:45 -0500</pubDate>
+      
+      <guid>https://bergin-io.github.io/2018/01/29/force.com-developer-certification-expiration-timeline/</guid>
+      <description>I stumbled on this timeline chart when I was cleaning up my old laptop.</description>
+    </item>
+    
+  </channel>
+</rss>

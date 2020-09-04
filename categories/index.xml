@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on bergin.io</title>
+    <link>https://bergin-io.github.io/categories/</link>
+    <description>Recent content in Categories on bergin.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Aug 2020 00:41:51 -0400</lastBuildDate>
+    
+	<atom:link href="https://bergin-io.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>API</title>
+      <link>https://bergin-io.github.io/categories/api/</link>
+      <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
+      
+      <guid>https://bergin-io.github.io/categories/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certification</title>
+      <link>https://bergin-io.github.io/categories/certification/</link>
+      <pubDate>Mon, 01 Jun 2020 23:58:21 -0400</pubDate>
+      
+      <guid>https://bergin-io.github.io/categories/certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apex</title>
+      <link>https://bergin-io.github.io/categories/apex/</link>
+      <pubDate>Fri, 27 Jul 2018 11:40:44 -0400</pubDate>
+      
+      <guid>https://bergin-io.github.io/categories/apex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dreamforce</title>
+      <link>https://bergin-io.github.io/categories/dreamforce/</link>
+      <pubDate>Sun, 12 Nov 2017 05:13:52 -0500</pubDate>
+      
+      <guid>https://bergin-io.github.io/categories/dreamforce/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

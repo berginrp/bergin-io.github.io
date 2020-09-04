@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calloutexception on bergin.io</title>
+    <link>https://bergin-io.github.io/tags/calloutexception/</link>
+    <description>Recent content in calloutexception on bergin.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Aug 2018 22:07:53 -0400</lastBuildDate>
+    
+	<atom:link href="https://bergin-io.github.io/tags/calloutexception/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>System.CalloutException: Received fatal alert: handshake_failure</title>
+      <link>https://bergin-io.github.io/2018/08/16/system.calloutexception-received-fatal-alert-handshake_failure/</link>
+      <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
+      
+      <guid>https://bergin-io.github.io/2018/08/16/system.calloutexception-received-fatal-alert-handshake_failure/</guid>
+      <description>At times, a simple configuration can end up showing scary messages like these.</description>
+    </item>
+    
+  </channel>
+</rss>
