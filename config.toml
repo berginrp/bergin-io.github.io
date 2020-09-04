@@ -1,5 +1,5 @@
 ############################ Default configuration #########################
-baseURL = "https://bergin.io/"
+baseURL = "https://bergin-io.github.io/"
 languageCode = "en-us"
 # site title 
 title = "bergin.io"
