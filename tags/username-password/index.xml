@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Salesforce Rest API &amp;#8211; Securely passing credentials in Username-password authentication flow</title>
-      <link>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-#8211-securely-passing-credentials-in-username-password-authentication-flow/</link>
+      <title>Salesforce Rest API Securely passing credentials in Username-password authentication flow</title>
+      <link>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</link>
       <pubDate>Fri, 15 Jun 2018 14:41:58 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-#8211-securely-passing-credentials-in-username-password-authentication-flow/</guid>
+      <guid>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</guid>
       <description>When an external system makes a call to a Salesforce Rest API, to get the auth token, you call the oauth2/token api with username-password authentication flow takes the credentials in plain text.</description>
     </item>
     
