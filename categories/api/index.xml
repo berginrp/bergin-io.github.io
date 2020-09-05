@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on bergin.io</title>
-    <link>https://bergin-io.github.io/categories/api/</link>
+    <link>https://www.bergin.io/categories/api/</link>
     <description>Recent content in API on bergin.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Aug 2020 00:41:51 -0400</lastBuildDate>
     
-	<atom:link href="https://bergin-io.github.io/categories/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bergin.io/categories/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Auth.AuthToken for API integrations</title>
-      <link>https://bergin-io.github.io/2020/08/14/using-auth.authtoken-for-api-integrations/</link>
+      <link>https://www.bergin.io/2020/08/14/using-auth.authtoken-for-api-integrations/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2020/08/14/using-auth.authtoken-for-api-integrations/</guid>
+      <guid>https://www.bergin.io/2020/08/14/using-auth.authtoken-for-api-integrations/</guid>
       <description>When it comes to API integration with systems that have sensitive data, security is something you could never compromise.</description>
     </item>
     
     <item>
       <title>Salesforce Rest API - Create Case</title>
-      <link>https://bergin-io.github.io/2018/11/06/salesforce-rest-api-create-case/</link>
+      <link>https://www.bergin.io/2018/11/06/salesforce-rest-api-create-case/</link>
       <pubDate>Tue, 06 Nov 2018 13:43:01 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/2018/11/06/salesforce-rest-api-create-case/</guid>
+      <guid>https://www.bergin.io/2018/11/06/salesforce-rest-api-create-case/</guid>
       <description>Salesforce provides standard APIs for many of the actions one would need to perform.</description>
     </item>
     
     <item>
       <title>System.CalloutException: Received fatal alert: handshake_failure</title>
-      <link>https://bergin-io.github.io/2018/08/16/system.calloutexception-received-fatal-alert-handshake_failure/</link>
+      <link>https://www.bergin.io/2018/08/16/system.calloutexception-received-fatal-alert-handshake_failure/</link>
       <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2018/08/16/system.calloutexception-received-fatal-alert-handshake_failure/</guid>
+      <guid>https://www.bergin.io/2018/08/16/system.calloutexception-received-fatal-alert-handshake_failure/</guid>
       <description>At times, a simple configuration can end up showing scary messages like these.</description>
     </item>
     
     <item>
       <title>Salesforce Rest API Securely passing credentials in Username-password authentication flow</title>
-      <link>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</link>
+      <link>https://www.bergin.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</link>
       <pubDate>Fri, 15 Jun 2018 14:41:58 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</guid>
+      <guid>https://www.bergin.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</guid>
       <description>When an external system makes a call to a Salesforce Rest API, to get the auth token, you call the oauth2/token api with username-password authentication flow takes the credentials in plain text.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Username-Password on bergin.io</title>
-    <link>https://bergin-io.github.io/tags/username-password/</link>
+    <link>https://www.bergin.io/tags/username-password/</link>
     <description>Recent content in Username-Password on bergin.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 15 Jun 2018 14:41:58 -0400</lastBuildDate>
     
-	<atom:link href="https://bergin-io.github.io/tags/username-password/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bergin.io/tags/username-password/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Salesforce Rest API Securely passing credentials in Username-password authentication flow</title>
-      <link>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</link>
+      <link>https://www.bergin.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</link>
       <pubDate>Fri, 15 Jun 2018 14:41:58 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</guid>
+      <guid>https://www.bergin.io/2018/06/15/salesforce-rest-api-securely-passing-credentials-in-username-password-authentication-flow/</guid>
       <description>When an external system makes a call to a Salesforce Rest API, to get the auth token, you call the oauth2/token api with username-password authentication flow takes the credentials in plain text.</description>
     </item>
     

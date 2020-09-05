@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Token on bergin.io</title>
-    <link>https://bergin-io.github.io/tags/token/</link>
+    <link>https://www.bergin.io/tags/token/</link>
     <description>Recent content in Token on bergin.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Aug 2020 00:41:51 -0400</lastBuildDate>
     
-	<atom:link href="https://bergin-io.github.io/tags/token/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bergin.io/tags/token/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Auth.AuthToken for API integrations</title>
-      <link>https://bergin-io.github.io/2020/08/14/using-auth.authtoken-for-api-integrations/</link>
+      <link>https://www.bergin.io/2020/08/14/using-auth.authtoken-for-api-integrations/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2020/08/14/using-auth.authtoken-for-api-integrations/</guid>
+      <guid>https://www.bergin.io/2020/08/14/using-auth.authtoken-for-api-integrations/</guid>
       <description>When it comes to API integration with systems that have sensitive data, security is something you could never compromise.</description>
     </item>
     
