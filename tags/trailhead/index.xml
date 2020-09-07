@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trailhead on bergin.io</title>
-    <link>https://bergin-io.github.io/tags/trailhead/</link>
+    <link>https://www.bergin.io/tags/trailhead/</link>
     <description>Recent content in Trailhead on bergin.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jun 2020 23:58:21 -0400</lastBuildDate>
     
-	<atom:link href="https://bergin-io.github.io/tags/trailhead/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bergin.io/tags/trailhead/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Salesforce Certified Application Architect</title>
-      <link>https://bergin-io.github.io/2020/06/01/salesforce-certified-application-architect/</link>
+      <link>https://www.bergin.io/2020/06/01/salesforce-certified-application-architect/</link>
       <pubDate>Mon, 01 Jun 2020 23:58:21 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/2020/06/01/salesforce-certified-application-architect/</guid>
+      <guid>https://www.bergin.io/2020/06/01/salesforce-certified-application-architect/</guid>
       <description>I had been working hard and eagerly waiting for this day.</description>
     </item>
     
     <item>
-      <title>Salesforce Certification &amp;#038; Transition Exam</title>
-      <link>https://bergin-io.github.io/2017/12/02/salesforce-certification-#038-transition-exam/</link>
+      <title>Salesforce Certification Transition Exam</title>
+      <link>https://www.bergin.io/2017/12/02/salesforce-certification-transition-exam/</link>
       <pubDate>Sat, 02 Dec 2017 16:16:42 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/2017/12/02/salesforce-certification-#038-transition-exam/</guid>
+      <guid>https://www.bergin.io/2017/12/02/salesforce-certification-transition-exam/</guid>
       <description>In my previous post, I wrote about taking certification at Dreamforce.</description>
     </item>
     

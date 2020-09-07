@@ -2,273 +2,273 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on bergin.io</title>
-    <link>https://bergin-io.github.io/tags/</link>
+    <link>https://www.bergin.io/tags/</link>
     <description>Recent content in Tags on bergin.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Aug 2020 00:41:51 -0400</lastBuildDate>
     
-	<atom:link href="https://bergin-io.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bergin.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Access token</title>
-      <link>https://bergin-io.github.io/tags/access-token/</link>
+      <link>https://www.bergin.io/tags/access-token/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/access-token/</guid>
+      <guid>https://www.bergin.io/tags/access-token/</guid>
       <description></description>
     </item>
     
     <item>
       <title>API</title>
-      <link>https://bergin-io.github.io/tags/api/</link>
+      <link>https://www.bergin.io/tags/api/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/api/</guid>
+      <guid>https://www.bergin.io/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Integration</title>
-      <link>https://bergin-io.github.io/tags/integration/</link>
+      <link>https://www.bergin.io/tags/integration/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/integration/</guid>
+      <guid>https://www.bergin.io/tags/integration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OAuth2</title>
-      <link>https://bergin-io.github.io/tags/oauth2/</link>
+      <link>https://www.bergin.io/tags/oauth2/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/oauth2/</guid>
+      <guid>https://www.bergin.io/tags/oauth2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Refresh token</title>
-      <link>https://bergin-io.github.io/tags/refresh-token/</link>
+      <link>https://www.bergin.io/tags/refresh-token/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/refresh-token/</guid>
+      <guid>https://www.bergin.io/tags/refresh-token/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Salesforce</title>
-      <link>https://bergin-io.github.io/tags/salesforce/</link>
+      <link>https://www.bergin.io/tags/salesforce/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/salesforce/</guid>
+      <guid>https://www.bergin.io/tags/salesforce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Token</title>
-      <link>https://bergin-io.github.io/tags/token/</link>
+      <link>https://www.bergin.io/tags/token/</link>
       <pubDate>Fri, 14 Aug 2020 00:41:51 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/token/</guid>
+      <guid>https://www.bergin.io/tags/token/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Certification</title>
-      <link>https://bergin-io.github.io/tags/certification/</link>
+      <link>https://www.bergin.io/tags/certification/</link>
       <pubDate>Mon, 01 Jun 2020 23:58:21 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/certification/</guid>
+      <guid>https://www.bergin.io/tags/certification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>journeyToCTA</title>
-      <link>https://bergin-io.github.io/tags/journeytocta/</link>
+      <link>https://www.bergin.io/tags/journeytocta/</link>
       <pubDate>Mon, 01 Jun 2020 23:58:21 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/journeytocta/</guid>
+      <guid>https://www.bergin.io/tags/journeytocta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trailhead</title>
-      <link>https://bergin-io.github.io/tags/trailhead/</link>
+      <link>https://www.bergin.io/tags/trailhead/</link>
       <pubDate>Mon, 01 Jun 2020 23:58:21 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/trailhead/</guid>
+      <guid>https://www.bergin.io/tags/trailhead/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Case</title>
-      <link>https://bergin-io.github.io/tags/case/</link>
+      <link>https://www.bergin.io/tags/case/</link>
       <pubDate>Tue, 06 Nov 2018 13:43:01 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/case/</guid>
+      <guid>https://www.bergin.io/tags/case/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Insert</title>
-      <link>https://bergin-io.github.io/tags/insert/</link>
+      <link>https://www.bergin.io/tags/insert/</link>
       <pubDate>Tue, 06 Nov 2018 13:43:01 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/insert/</guid>
+      <guid>https://www.bergin.io/tags/insert/</guid>
       <description></description>
     </item>
     
     <item>
       <title>REST API</title>
-      <link>https://bergin-io.github.io/tags/rest-api/</link>
+      <link>https://www.bergin.io/tags/rest-api/</link>
       <pubDate>Tue, 06 Nov 2018 13:43:01 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/rest-api/</guid>
+      <guid>https://www.bergin.io/tags/rest-api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>calloutexception</title>
-      <link>https://bergin-io.github.io/tags/calloutexception/</link>
+      <link>https://www.bergin.io/tags/calloutexception/</link>
       <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/calloutexception/</guid>
+      <guid>https://www.bergin.io/tags/calloutexception/</guid>
       <description></description>
     </item>
     
     <item>
       <title>failure</title>
-      <link>https://bergin-io.github.io/tags/failure/</link>
+      <link>https://www.bergin.io/tags/failure/</link>
       <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/failure/</guid>
+      <guid>https://www.bergin.io/tags/failure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>handshake</title>
-      <link>https://bergin-io.github.io/tags/handshake/</link>
+      <link>https://www.bergin.io/tags/handshake/</link>
       <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/handshake/</guid>
+      <guid>https://www.bergin.io/tags/handshake/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mutual tls</title>
-      <link>https://bergin-io.github.io/tags/mutual-tls/</link>
+      <link>https://www.bergin.io/tags/mutual-tls/</link>
       <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/mutual-tls/</guid>
+      <guid>https://www.bergin.io/tags/mutual-tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>two-way ssl</title>
-      <link>https://bergin-io.github.io/tags/two-way-ssl/</link>
+      <link>https://www.bergin.io/tags/two-way-ssl/</link>
       <pubDate>Thu, 16 Aug 2018 22:07:53 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/two-way-ssl/</guid>
+      <guid>https://www.bergin.io/tags/two-way-ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apex</title>
-      <link>https://bergin-io.github.io/tags/apex/</link>
+      <link>https://www.bergin.io/tags/apex/</link>
       <pubDate>Fri, 27 Jul 2018 11:40:44 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/apex/</guid>
+      <guid>https://www.bergin.io/tags/apex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Class</title>
-      <link>https://bergin-io.github.io/tags/class/</link>
+      <link>https://www.bergin.io/tags/class/</link>
       <pubDate>Fri, 27 Jul 2018 11:40:44 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/class/</guid>
+      <guid>https://www.bergin.io/tags/class/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Production</title>
-      <link>https://bergin-io.github.io/tags/production/</link>
+      <link>https://www.bergin.io/tags/production/</link>
       <pubDate>Fri, 27 Jul 2018 11:40:44 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/production/</guid>
+      <guid>https://www.bergin.io/tags/production/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authentication Flow</title>
-      <link>https://bergin-io.github.io/tags/authentication-flow/</link>
+      <link>https://www.bergin.io/tags/authentication-flow/</link>
       <pubDate>Fri, 15 Jun 2018 14:41:58 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/authentication-flow/</guid>
+      <guid>https://www.bergin.io/tags/authentication-flow/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Username-Password</title>
-      <link>https://bergin-io.github.io/tags/username-password/</link>
+      <link>https://www.bergin.io/tags/username-password/</link>
       <pubDate>Fri, 15 Jun 2018 14:41:58 -0400</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/username-password/</guid>
+      <guid>https://www.bergin.io/tags/username-password/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expiration</title>
-      <link>https://bergin-io.github.io/tags/expiration/</link>
+      <link>https://www.bergin.io/tags/expiration/</link>
       <pubDate>Mon, 29 Jan 2018 14:14:45 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/expiration/</guid>
+      <guid>https://www.bergin.io/tags/expiration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Force.com Developer</title>
-      <link>https://bergin-io.github.io/tags/force.com-developer/</link>
+      <link>https://www.bergin.io/tags/force.com-developer/</link>
       <pubDate>Mon, 29 Jan 2018 14:14:45 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/force.com-developer/</guid>
+      <guid>https://www.bergin.io/tags/force.com-developer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>timeline</title>
-      <link>https://bergin-io.github.io/tags/timeline/</link>
+      <link>https://www.bergin.io/tags/timeline/</link>
       <pubDate>Mon, 29 Jan 2018 14:14:45 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/timeline/</guid>
+      <guid>https://www.bergin.io/tags/timeline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dreamforce</title>
-      <link>https://bergin-io.github.io/tags/dreamforce/</link>
+      <link>https://www.bergin.io/tags/dreamforce/</link>
       <pubDate>Sat, 02 Dec 2017 16:16:42 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/dreamforce/</guid>
+      <guid>https://www.bergin.io/tags/dreamforce/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transition Exam</title>
-      <link>https://bergin-io.github.io/tags/transition-exam/</link>
+      <link>https://www.bergin.io/tags/transition-exam/</link>
       <pubDate>Sat, 02 Dec 2017 16:16:42 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/transition-exam/</guid>
+      <guid>https://www.bergin.io/tags/transition-exam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DF17</title>
-      <link>https://bergin-io.github.io/tags/df17/</link>
+      <link>https://www.bergin.io/tags/df17/</link>
       <pubDate>Sun, 12 Nov 2017 05:13:52 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/tags/df17/</guid>
+      <guid>https://www.bergin.io/tags/df17/</guid>
       <description></description>
     </item>
     

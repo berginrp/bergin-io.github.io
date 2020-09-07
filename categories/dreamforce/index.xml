@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dreamforce on bergin.io</title>
-    <link>https://bergin-io.github.io/categories/dreamforce/</link>
+    <link>https://www.bergin.io/categories/dreamforce/</link>
     <description>Recent content in Dreamforce on bergin.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Nov 2017 05:13:52 -0500</lastBuildDate>
     
-	<atom:link href="https://bergin-io.github.io/categories/dreamforce/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bergin.io/categories/dreamforce/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dreamforce 2017 Experience and Lessons Learned</title>
-      <link>https://bergin-io.github.io/2017/11/12/dreamforce-2017-experience-and-lessons-learned/</link>
+      <link>https://www.bergin.io/2017/11/12/dreamforce-2017-experience-and-lessons-learned/</link>
       <pubDate>Sun, 12 Nov 2017 05:13:52 -0500</pubDate>
       
-      <guid>https://bergin-io.github.io/2017/11/12/dreamforce-2017-experience-and-lessons-learned/</guid>
+      <guid>https://www.bergin.io/2017/11/12/dreamforce-2017-experience-and-lessons-learned/</guid>
       <description>Dreamforce 2017 was my second time at this ever-growing monstrous conference.</description>
     </item>
     
